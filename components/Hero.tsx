@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
     <div
       className="relative h-screen flex flex-col justify-center items-start px-8 lg:px-24 bg-cover bg-center bg-no-repeat bg-fixed"
       style={{
-        backgroundImage: "linear-gradient(rgba(6, 10, 20, 0.75), rgba(6, 10, 20, 0.75)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1920')",
+        backgroundImage: "linear-gradient(rgba(4, 10, 20, 0.8), rgba(4, 10, 20, 0.8)), url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1920')",
       }}
     >
       <div className="relative z-10 animate-fadeIn ml-0 lg:ml-10">
