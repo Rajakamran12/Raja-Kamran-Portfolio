@@ -30,8 +30,8 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, isOpen, onClose }) => 
 
   const socialLinks = [
     { icon: Instagram, href: '#' },
-    { icon: Linkedin, href: '#' },
-    { icon: Github, href: '#' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/raja-kamran-550850331?utm_source=share_via&utm_content=profile&utm_medium=member_android' },
+    { icon: Github, href: 'https://github.com/Rajakamran12' },
   ];
 
   // Image served from the `public/` folder so it's available in production builds.
