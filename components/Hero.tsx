@@ -31,12 +31,12 @@ const Hero: React.FC = () => {
   }, [displayText, isDeleting, currentTitleIndex, titles]);
 
   return (
-    <div className="relative h-screen flex flex-col justify-center items-start px-8 lg:px-24 overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center filter blur-2xl scale-110"
-        style={{ backgroundImage: "url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1920')" }}
-      />
-      <div className="absolute inset-0 bg-black/55" />
+    <div
+      className="relative h-screen flex flex-col justify-center items-start px-8 lg:px-24 bg-cover bg-center bg-no-repeat bg-fixed"
+      style={{
+        backgroundImage: "linear-gradient(rgba(6, 10, 20, 0.75), rgba(6, 10, 20, 0.75)), url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1920')",
+      }}
+    >
       <div className="relative z-10 animate-fadeIn ml-0 lg:ml-10">
         <h1 className="text-white text-4xl lg:text-7xl font-bold mb-4 tracking-tight">
           Raja Muhammad Kamran Afzal
