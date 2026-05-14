@@ -18,7 +18,7 @@ const Portfolio: React.FC = () => {
           Portfolio
         </h2>
         <p className="mt-8 text-[#94a3b8] italic text-lg max-w-4xl">
-          A showcase of AI-first frontend products, interactive dashboards, and intelligent web systems designed for modern digital experiences.
+          A showcase of AI-first frontend products, intelligent interfaces, and gesture-based systems built for modern digital experiences.
         </p>
       </div>
 
@@ -56,6 +56,8 @@ const Portfolio: React.FC = () => {
                 {project.github && (
                   <a 
                     href={project.github} 
+                    target="_blank"
+                    rel="noreferrer"
                     className="w-12 h-12 flex items-center justify-center rounded-full bg-[#149ddd] text-white hover:bg-white hover:text-[#149ddd] transition-all transform hover:scale-110 shadow-lg"
                     title="View Source Code"
                   >
@@ -65,6 +67,8 @@ const Portfolio: React.FC = () => {
                 {project.demo && (
                   <a 
                     href={project.demo} 
+                    target="_blank"
+                    rel="noreferrer"
                     className="w-12 h-12 flex items-center justify-center rounded-full bg-[#149ddd] text-white hover:bg-white hover:text-[#149ddd] transition-all transform hover:scale-110 shadow-lg"
                     title="View Live Demo"
                   >

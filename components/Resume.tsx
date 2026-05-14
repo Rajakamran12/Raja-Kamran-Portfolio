@@ -10,8 +10,17 @@ const Resume: React.FC = () => {
           Resume
         </h2>
         <p className="mt-8 text-[#94a3b8] italic text-lg max-w-4xl">
-          Passionate Frontend Developer with expertise in building scalable web applications. Skilled in frontend development with strong foundations in modern web technologies, secure authentication systems, and optimized database performance.
+          Passionate AI Engineer and Frontend Developer delivering gesture-driven products, intelligent interfaces, and polished web experiences.
         </p>
+        <div className="mt-8">
+          <a
+            href="/resume.pdf"
+            download
+            className="inline-flex items-center justify-center rounded-full bg-[#149ddd] px-8 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-xl shadow-[#149ddd]/20 transition-all duration-300 hover:bg-white hover:text-[#149ddd]"
+          >
+            Download Resume
+          </a>
+        </div>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">

@@ -47,7 +47,7 @@ const Skills: React.FC = () => {
           Skills
         </h2>
         <p className="mt-8 text-[#94a3b8] italic max-w-4xl text-lg">
-          Highly proficient in building web ecosystems from scratch. My technical toolkit includes everything from modern frontend frameworks to scalable cloud infrastructures.
+          Frontend and AI engineering expertise built for intelligent product delivery, gesture-driven experiences, and polished user interfaces.
         </p>
       </div>
 

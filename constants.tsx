@@ -2,16 +2,16 @@
 import { Skill, Experience, Education, Service, Project } from './types';
 
 export const SKILLS: Skill[] = [
-  { name: 'React.js & Next.js', percentage: 95 },
-  { name: 'TypeScript', percentage: 95 },
-  { name: 'Machine Learning', percentage: 90 },
-  { name: 'Python, PyTorch & TensorFlow', percentage: 88 },
-  { name: 'Generative AI & NLP', percentage: 85 },
-  { name: 'UI/UX Design', percentage: 85 },
-  { name: 'REST APIs & GraphQL', percentage: 85 },
-  { name: 'Data Visualization', percentage: 82 },
-  { name: 'Cloud & DevOps (AWS, Docker)', percentage: 80 },
-  { name: 'Git & GitHub', percentage: 90 },
+  { name: 'React.js & Next.js', percentage: 96 },
+  { name: 'TypeScript & JavaScript', percentage: 95 },
+  { name: 'Machine Learning & Computer Vision', percentage: 92 },
+  { name: 'Python, PyTorch & TensorFlow', percentage: 90 },
+  { name: 'AI Product Prototyping', percentage: 88 },
+  { name: 'UI/UX for Intelligent Apps', percentage: 88 },
+  { name: 'REST APIs & GraphQL', percentage: 86 },
+  { name: 'Gesture Control & Sensor UI', percentage: 84 },
+  { name: 'Cloud Deployment & DevOps', percentage: 82 },
+  { name: 'Git & Team Collaboration', percentage: 92 },
 ];
 
 export const EDUCATION: Education[] = [
@@ -99,6 +99,14 @@ export const SERVICES: Service[] = [
 ];
 
 export const PROJECTS: Project[] = [
+  {
+    title: 'Gesture Based PC Control',
+    description: 'Gesture-based PC control system combining hand tracking, UI automation, and intelligent desktop interactions.',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800',
+    category: 'AI',
+    github: 'https://github.com/Rajakamran12/Gesture_Based_PC_Control.git',
+    demo: 'https://github.com/Rajakamran12/Gesture_Based_PC_Control.git'
+  },
   {
     title: 'Smart AI Assistant',
     description: 'Conversational AI companion built with Gemini API and adaptive frontend interactions.',
