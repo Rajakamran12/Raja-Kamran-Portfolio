@@ -37,11 +37,11 @@ export const EDUCATION: Education[] = [
 
 export const EXPERIENCES: Experience[] = [
   {
-    title: 'Full Stack Developer',
+    title: 'Frontend Developer',
     company: 'Vertex Solutions Inc',
     period: 'Feb 2nd, 2025 – Present',
     description: [
-      'Design and implement full-stack web applications using React, Node.js, MongoDB, and SQL',
+      'Design and implement frontend-rich web applications using React, Node.js, MongoDB, and SQL',
       'Develop RESTful APIs and maintain backend services',
       'Collaborate with designers and product teams',
       'Follow CI/CD best practices, testing, and code reviews'
@@ -59,11 +59,11 @@ export const EXPERIENCES: Experience[] = [
     ]
   },
   {
-    title: 'Full Stack Developer',
+    title: 'Frontend Developer',
     company: 'Upwork (Freelance)',
     period: 'Since 2024',
     description: [
-      'Delivered frontend and backend client projects',
+      'Delivered frontend-first client projects',
       'Integrated third-party APIs and responsive designs',
       'Handled client communication and project delivery'
     ]
@@ -87,7 +87,7 @@ export const SERVICES: Service[] = [
     icon: 'Layers'
   },
   {
-    title: 'Full Stack Development',
+    title: 'Frontend Development',
     description: 'Building scalable web platforms using React, Node.js, and cloud-ready architectures.',
     icon: 'Server'
   },

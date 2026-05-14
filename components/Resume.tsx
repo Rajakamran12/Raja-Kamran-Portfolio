@@ -10,7 +10,7 @@ const Resume: React.FC = () => {
           Resume
         </h2>
         <p className="mt-8 text-[#94a3b8] italic text-lg max-w-4xl">
-          Passionate Full Stack Developer with expertise in building scalable web applications. Skilled in frontend and backend development with strong foundations in modern web technologies, secure authentication systems, and optimized database performance.
+          Passionate Frontend Developer with expertise in building scalable web applications. Skilled in frontend development with strong foundations in modern web technologies, secure authentication systems, and optimized database performance.
         </p>
       </div>
 

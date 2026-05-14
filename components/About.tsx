@@ -23,7 +23,7 @@ const About: React.FC = () => {
           About
         </h2>
         <p className="mt-8 text-[#94a3b8] leading-relaxed text-lg max-w-4xl">
-          I specialize in full-stack web development, leveraging modern technologies like React.js, Node.js, and MongoDB for building scalable, high-performance applications. My expertise includes developing responsive frontends, robust backend services, and integrating APIs and databases.
+          I specialize in frontend web development, leveraging modern technologies like React.js, Node.js, and MongoDB for building scalable, high-performance applications. My expertise includes developing responsive frontends, robust backend services, and integrating APIs and databases.
         </p>
       </div>
 
