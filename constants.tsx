@@ -2,16 +2,15 @@
 import { Skill, Experience, Education, Service, Project } from './types';
 
 export const SKILLS: Skill[] = [
-  { name: 'React.js', percentage: 95 },
-  { name: 'Node.js & Express.js', percentage: 90 },
-  { name: 'JavaScript & TypeScript', percentage: 85 },
-  { name: 'MongoDB & SQL', percentage: 80 },
+  { name: 'React.js & Next.js', percentage: 95 },
+  { name: 'TypeScript', percentage: 95 },
+  { name: 'Machine Learning', percentage: 90 },
+  { name: 'Python, PyTorch & TensorFlow', percentage: 88 },
+  { name: 'Generative AI & NLP', percentage: 85 },
+  { name: 'UI/UX Design', percentage: 85 },
   { name: 'REST APIs & GraphQL', percentage: 85 },
-  { name: 'Next.js', percentage: 85 },
-  { name: 'Python & Django', percentage: 80 },
-  { name: 'Cloud & DevOps (AWS, Docker)', percentage: 70 },
-  { name: 'HTML5 & CSS3', percentage: 90 },
-  { name: 'UI/UX (Material Design, Tailwind)', percentage: 75 },
+  { name: 'Data Visualization', percentage: 82 },
+  { name: 'Cloud & DevOps (AWS, Docker)', percentage: 80 },
   { name: 'Git & GitHub', percentage: 90 },
 ];
 
@@ -73,28 +72,28 @@ export const EXPERIENCES: Experience[] = [
 
 export const SERVICES: Service[] = [
   {
-    title: 'Frontend Development',
-    description: 'Expertise in React.js and Next.js to build fast, responsive user interfaces.',
+    title: 'AI-Powered Frontends',
+    description: 'Designing responsive interfaces with adaptive AI features and polished visual systems.',
     icon: 'Layout'
   },
   {
-    title: 'Backend Development',
-    description: 'Scalable servers using Node.js, Express, and Python for robust business logic.',
-    icon: 'Server'
-  },
-  {
-    title: 'UI/UX Design',
-    description: 'Crafting intuitive user experiences using Material Design and Tailwind CSS.',
-    icon: 'Layers'
-  },
-  {
-    title: 'API Development',
-    description: 'Developing high-performance REST and GraphQL APIs for seamless data exchange.',
+    title: 'Model Integration',
+    description: 'Integrating machine learning models and inference pipelines into web applications.',
     icon: 'Code'
   },
   {
+    title: 'Data & Analytics',
+    description: 'Transforming data into insights with dashboards, visualizations, and analytics workflows.',
+    icon: 'Layers'
+  },
+  {
+    title: 'Full Stack Development',
+    description: 'Building scalable web platforms using React, Node.js, and cloud-ready architectures.',
+    icon: 'Server'
+  },
+  {
     title: 'Deployment & Hosting',
-    description: 'Expertise in AWS, Vercel, and GitHub Pages for continuous delivery.',
+    description: 'Delivering production-ready apps with AWS, Vercel, and containerized deployment.',
     icon: 'Cloud'
   }
 ];
@@ -102,24 +101,24 @@ export const SERVICES: Service[] = [
 export const PROJECTS: Project[] = [
   {
     title: 'Smart AI Assistant',
-    description: 'Personalized AI companion built with Gemini API.',
+    description: 'Conversational AI companion built with Gemini API and adaptive frontend interactions.',
     image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800',
     category: 'AI',
     github: '#'
   },
   {
     title: 'Modern E-Shop',
-    description: 'Full-featured ecommerce with Stripe and MERN.',
+    description: 'Personalized ecommerce UI with recommendation engines and fast React checkout.',
     image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800',
-    category: 'Web',
+    category: 'Frontend',
     github: '#',
     demo: '#'
   },
   {
-    title: 'DevOps Dashboard',
-    description: 'Real-time infrastructure monitoring tool.',
+    title: 'AI Analytics Dashboard',
+    description: 'Interactive analytics dashboard with real-time insights and predictive metrics.',
     image: 'https://images.unsplash.com/photo-1551288049-bbda48658a7d?auto=format&fit=crop&q=80&w=800',
-    category: 'DevOps',
+    category: 'Data',
     github: '#'
   }
 ];

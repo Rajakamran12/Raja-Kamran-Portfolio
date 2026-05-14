@@ -22,7 +22,7 @@ const Resume: React.FC = () => {
             <div className="absolute w-5 h-5 bg-[#050816] border-2 border-[#149ddd] rounded-full -left-[11px] top-0 shadow-[0_0_10px_#149ddd]"></div>
             <h4 className="text-xl font-bold text-[#149ddd] uppercase tracking-wide">Raja Muhammad Kamran Afzal</h4>
             <p className="italic text-[#cbd5e1] mt-3">
-              Full Stack Developer & AI enthusiast focused on clean, maintainable code and best practices.
+              AI Engineer and Frontend Developer building intelligent products with sleek interfaces and robust backend systems.
             </p>
             <ul className="list-none mt-5 text-[#94a3b8] space-y-3">
               <li>Rawalpindi, Pakistan</li>

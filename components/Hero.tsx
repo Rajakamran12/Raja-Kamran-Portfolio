@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 
 const Hero: React.FC = () => {
-  const titles = ["Developer", "Designer", "Freelancer"];
+  const titles = ["AI Engineer", "Frontend Developer", "Machine Learning Engineer"];
   const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
   const [displayText, setDisplayText] = useState('');
   const [isDeleting, setIsDeleting] = useState(false);
@@ -49,9 +49,9 @@ const Hero: React.FC = () => {
           </span>
         </div>
         <div className="mt-8 text-gray-200 max-w-2xl">
-          <p className="text-lg lg:text-xl font-semibold text-[#149ddd] tracking-wide mb-2 uppercase">Full Stack Developer, AI Engineer</p>
+          <p className="text-lg lg:text-xl font-semibold text-[#149ddd] tracking-wide mb-2 uppercase">AI Engineer & Frontend Developer</p>
           <p className="text-md lg:text-lg leading-relaxed text-gray-300">
-            Building scalable web applications with AI features and modern full-stack technologies.
+            Delivering intelligent frontend systems and AI-powered web experiences with React, TypeScript, and machine learning pipelines.
           </p>
         </div>
       </div>

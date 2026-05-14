@@ -44,10 +44,10 @@ const About: React.FC = () => {
 
         <div className="lg:col-span-8">
           <h3 className="text-3xl font-bold text-white mb-4">
-            Full Stack Developer & AI Engineer
+            AI-Driven Frontend Architect
           </h3>
           <p className="text-[#94a3b8] mb-8 italic text-lg leading-relaxed">
-            I also integrate AI-driven features such as intelligent recommendations, automation, and data-driven insights to enhance user experience and system efficiency.
+            I design interfaces that feel fast and intuitive while powering them with AI features like intelligent recommendations, conversational flows, and predictive analytics.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6">

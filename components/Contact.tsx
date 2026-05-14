@@ -23,7 +23,7 @@ const Contact: React.FC = () => {
           Contact
         </h2>
         <p className="mt-8 text-[#94a3b8] italic text-lg max-w-4xl">
-          Every action leads to consequences, shaping our journey and opportunities for growth.
+          Let's build intelligent frontend experiences and AI-first products that improve how people engage with digital systems.
         </p>
       </div>
 
