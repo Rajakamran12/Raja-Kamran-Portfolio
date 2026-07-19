@@ -18,7 +18,7 @@ const Portfolio: React.FC = () => {
           Portfolio
         </h2>
         <p className="mt-8 text-[#94a3b8] italic text-lg max-w-4xl">
-          A showcase of AI-first frontend products, intelligent interfaces, and gesture-based systems built for modern digital experiences.
+          A showcase of AI-first frontend products, interactive dashboards, and intelligent web systems designed for modern digital experiences.
         </p>
       </div>
 

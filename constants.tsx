@@ -2,16 +2,16 @@
 import { Skill, Experience, Education, Service, Project } from './types';
 
 export const SKILLS: Skill[] = [
-  { name: 'React.js & Next.js', percentage: 96 },
-  { name: 'TypeScript & JavaScript', percentage: 95 },
-  { name: 'Machine Learning & Computer Vision', percentage: 92 },
-  { name: 'Python, PyTorch & TensorFlow', percentage: 90 },
-  { name: 'AI Product Prototyping', percentage: 88 },
-  { name: 'UI/UX for Intelligent Apps', percentage: 88 },
-  { name: 'REST APIs & GraphQL', percentage: 86 },
-  { name: 'Gesture Control & Sensor UI', percentage: 84 },
+  { name: 'Frontend Engineering', percentage: 96 },
+  { name: 'React.js & TypeScript', percentage: 95 },
+  { name: 'AI Model Integration', percentage: 93 },
+  { name: 'Computer Vision & Gesture Recognition', percentage: 90 },
+  { name: 'Generative AI & NLP', percentage: 88 },
+  { name: 'UI/UX Design Systems', percentage: 87 },
+  { name: 'REST APIs & GraphQL', percentage: 85 },
+  { name: 'Performance Optimization', percentage: 84 },
   { name: 'Cloud Deployment & DevOps', percentage: 82 },
-  { name: 'Git & Team Collaboration', percentage: 92 },
+  { name: 'Git, GitHub & Collaboration', percentage: 92 },
 ];
 
 export const EDUCATION: Education[] = [
@@ -100,14 +100,6 @@ export const SERVICES: Service[] = [
 
 export const PROJECTS: Project[] = [
   {
-    title: 'Gesture Based PC Control',
-    description: 'Gesture-based PC control system combining hand tracking, UI automation, and intelligent desktop interactions.',
-    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800',
-    category: 'AI',
-    github: 'https://github.com/Rajakamran12/Gesture_Based_PC_Control.git',
-    demo: 'https://github.com/Rajakamran12/Gesture_Based_PC_Control.git'
-  },
-  {
     title: 'Smart AI Assistant',
     description: 'Conversational AI companion built with Gemini API and adaptive frontend interactions.',
     image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800',
@@ -128,5 +120,12 @@ export const PROJECTS: Project[] = [
     image: 'https://images.unsplash.com/photo-1551288049-bbda48658a7d?auto=format&fit=crop&q=80&w=800',
     category: 'Data',
     github: '#'
+  },
+  {
+    title: 'Gesture Based PC Control',
+    description: 'A gesture-driven PC control system that lets users manage applications and media with hand movements.',
+    image: 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800',
+    category: 'AI',
+    github: 'https://github.com/Rajakamran12/Gesture_Based_PC_Control.git'
   }
 ];

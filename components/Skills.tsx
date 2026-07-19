@@ -47,7 +47,7 @@ const Skills: React.FC = () => {
           Skills
         </h2>
         <p className="mt-8 text-[#94a3b8] italic max-w-4xl text-lg">
-          Frontend and AI engineering expertise built for intelligent product delivery, gesture-driven experiences, and polished user interfaces.
+          A hybrid of frontend engineering and AI product development. These skills showcase my strengths in building user-facing experiences powered by intelligent systems.
         </p>
       </div>
 
