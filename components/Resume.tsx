@@ -6,23 +6,23 @@ import { EXPERIENCES, EDUCATION } from '../constants';
 const Resume: React.FC = () => {
   return (
     <div className="container mx-auto">
-      <div className="mb-12 flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
-        <div>
-          <h2 className="text-4xl font-bold text-white uppercase relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-16 after:h-1 after:bg-[#149ddd]">
-            Resume
-          </h2>
-          <p className="mt-8 text-[#94a3b8] italic text-lg max-w-4xl">
-            Passionate AI Engineer and Frontend Developer building intelligent products with sleek interfaces and robust systems. I specialize in AI-powered frontend experiences and gesture-aware controls.
-          </p>
+      <div className="mb-12">
+        <h2 className="text-4xl font-bold text-white uppercase relative pb-4 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-16 after:h-1 after:bg-[#149ddd]">
+          Resume
+        </h2>
+        <p className="mt-8 text-[#94a3b8] italic text-lg max-w-4xl">
+          Passionate AI Engineer and Frontend Developer building intelligent products with sleek interfaces and robust systems. I specialize in AI-powered frontend experiences and gesture-aware controls.
+        </p>
+        <div className="mt-8">
+          <a
+            href="/resume.pdf"
+            download
+            className="inline-flex items-center justify-center gap-2 rounded-full bg-[#149ddd] px-8 py-3 text-sm font-semibold uppercase tracking-wider text-white shadow-xl shadow-[#149ddd]/20 transition-all duration-300 hover:bg-white hover:text-[#149ddd]"
+          >
+            <Download size={18} />
+            Download Resume
+          </a>
         </div>
-        <a
-          href="/resume.pdf"
-          download
-          className="inline-flex items-center justify-center gap-2 rounded-full bg-[#149ddd] px-6 py-3 text-sm font-semibold uppercase tracking-widest text-white shadow-lg shadow-[#149ddd]/20 transition-all duration-300 hover:bg-[#1f5297]"
-        >
-          <Download size={18} />
-          Download Resume
-        </a>
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
