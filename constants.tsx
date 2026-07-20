@@ -107,12 +107,11 @@ export const PROJECTS: Project[] = [
     github: '#'
   },
   {
-    title: 'Modern E-Shop',
-    description: 'Personalized ecommerce UI with recommendation engines and fast React checkout.',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800',
-    category: 'Frontend',
-    github: '#',
-    demo: '#'
+    title: 'Night Image Visibility Improver',
+    description: 'Computer vision tool that enhances low-light and night-time images for improved clarity and visibility.',
+    image: 'https://images.unsplash.com/photo-1519681393784-d120267933ba?auto=format&fit=crop&q=80&w=800',
+    category: 'AI',
+    github: 'https://github.com/Rajakamran12/Night-Image-Visibility-Improver.git'
   },
   {
     title: 'AI Analytics Dashboard',
