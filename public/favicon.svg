@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
-  <rect width="200" height="200" fill="transparent"/>
+  <rect width="200" height="200" fill="transparent" />
   <g fill="#000000">
-    <!-- Stylized R (left) -->
-    <path d="M28 28 L28 172 Q28 184 40 184 L84 184 Q108 184 120 166 Q132 148 120 134 Q108 120 84 120 L60 120 L100 60 L96 54 L56 54 Q40 54 34 62 Q28 70 28 86 Z"/>
-    <!-- Stylized K (right) -->
-    <path d="M132 34 L168 34 L168 64 L144 64 L176 100 L144 136 L168 136 L168 166 L132 166 L132 136 L154 116 L132 96 Z"/>
+    <!-- Left 'R' shape: rounded top and diagonal leg -->
+    <path d="M30 30 L30 150 L56 150 L56 110 C56 94 68 82 84 82 L104 82 L120 60 L112 54 L96 74 L84 74 C76 74 70 78 68 86 L68 86 L68 86 L68 86 L68 86 L68 86 L68 86 L68 86 L68 86 L68 86 L68 86 L68 86 L68 86 L68 86 L68 86 L68 86 Z"/>
+    <!-- Right 'K' shape: two slanted strokes forming K -->
+    <path d="M130 30 L162 30 L140 66 L170 110 L140 150 L126 150 L154 112 L126 74 Z"/>
   </g>
 </svg>
