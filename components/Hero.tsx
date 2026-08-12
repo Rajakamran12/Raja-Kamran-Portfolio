@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
       }}
     >
       <div className="relative z-10 animate-fadeIn ml-0 lg:ml-10">
-        <h1 className="text-white text-4xl lg:text-7xl font-bold mb-4 tracking-tight">
+        <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-4 tracking-tight whitespace-nowrap">
           Raja Muhammad Kamran Afzal
         </h1>
         <div className="flex items-center text-white text-2xl lg:text-3xl font-medium min-h-[1.5em]">
