@@ -14,7 +14,7 @@ const About: React.FC = () => {
     { label: 'Freelance', value: 'Available' },
   ];
 
-  const profileImage = "/1784835792632.jpeg";
+  const profileImage = "/profile.png";
 
   return (
     <div className="container mx-auto">

@@ -35,7 +35,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, isOpen, onClose }) => 
   ];
 
   // Image served from the `public/` folder so it's available in production builds.
-  const profileImage = "/1784835792632.jpeg";
+  const profileImage = "/profile.png";
 
   return (
     <aside
