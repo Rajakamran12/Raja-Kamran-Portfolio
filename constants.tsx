@@ -114,11 +114,11 @@ export const PROJECTS: Project[] = [
     github: 'https://github.com/Rajakamran12/Night-Image-Visibility-Improver.git'
   },
   {
-    title: 'AI Analytics Dashboard',
-    description: 'Interactive analytics dashboard with real-time insights and predictive metrics.',
-    image: 'https://images.unsplash.com/photo-1551288049-bbda48658a7d?auto=format&fit=crop&q=80&w=800',
-    category: 'Data',
-    github: '#'
+    title: 'HR Screening Tool',
+    description: 'Evidence-grounded candidate screening dashboard with weighted job criteria, resume parsing, and actionable recommendations.',
+    image: '/hr-screening-tool.svg',
+    category: 'AI',
+    github: 'https://github.com/Rajakamran12/HR-Screening-Tool.git'
   },
   {
     title: 'Gesture Based PC Control',
